@@ -59,3 +59,12 @@ console.log(add(12,12));
 const add = (num1:number,num2:number):number => num1+num2;
 console.log(add(92,12));
 ```
+## Subtract example
+
+```
+function sub(num1:number,num2:number):number
+{
+    return num1 -num2;
+}
+console.log(sub(22,21));
+```
