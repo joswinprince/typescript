@@ -37,5 +37,7 @@ let myresults = numList.filter((num1)=> num1 >= 2);
 let result = numList.find((num)=> num =2);
 let emp = emplist.find((emp)=> emp ==="santish");
 console.log(emp);
-
+let sum = numList.reduce((acc,num)=> acc+num);
+console.log(emp);
+console.log(sum);
 ```
