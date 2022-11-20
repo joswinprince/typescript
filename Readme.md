@@ -98,3 +98,22 @@ const add3e = (num1:number,num2:number,num3?:number):number =>
       let numbers = [1,2,3,4,5];
         let concatResult = getItem<number>(numbers);
    ```
+   
+   ## class with type script
+   ```
+   class Employee {
+    id!:number;
+    name!:string;
+    address!:string;
+constructor(id:number,name:string,address:string)
+{
+    this.address = address;
+    this.id = id;
+    this.name = name;
+}
+}
+
+let john = new Employee(1,'highway 71',"john");
+
+console.log(john);
+   ```
