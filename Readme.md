@@ -81,3 +81,11 @@ console.log(sub(22,21));
 const add3e = (num1:number,num2:number,num3?:number):number =>
   num3? num1 + num2 + num3:num1 +num2;
 ```
+## add more numbers
+```
+    function add2(num1:number,num2:number,...num3:number[]):number{
+        return num1 + num2 + num3.reduce((a,b)=> a + b,0);
+    }
+    let numbers = [1,2,3,4,5];
+    console.log(add2(2, 4, ...numbers));
+```
