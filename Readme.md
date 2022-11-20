@@ -89,3 +89,12 @@ const add3e = (num1:number,num2:number,num3?:number):number =>
     let numbers = [1,2,3,4,5];
     console.log(add2(2, 4, ...numbers));
 ```
+
+## Generic methods
+```
+   function getItems<T>(items:T[]):T[] {
+        return new Array<T>().concat(items);
+    }
+      let numbers = [1,2,3,4,5];
+        let concatResult = getItem<number>(numbers);
+   ```
