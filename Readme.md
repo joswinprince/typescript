@@ -68,3 +68,16 @@ function sub(num1:number,num2:number):number
 }
 console.log(sub(22,21));
 ```
+## Add three number
+```
+ function add3(num1:number,num2:number,num3?:number):number
+    {
+   return num3 ? num1+num2+num3 :num1+num2;
+    }
+    console.log(add3(10,20));
+```
+## Add three number one line
+```
+const add3e = (num1:number,num2:number,num3?:number):number =>
+  num3? num1 + num2 + num3:num1 +num2;
+```
