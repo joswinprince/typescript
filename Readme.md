@@ -41,3 +41,11 @@ let sum = numList.reduce((acc,num)=> acc+num);
 console.log(emp);
 console.log(sum);
 ```
+# Add example
+```
+function add(num1:number,num2:number):number
+{
+    return num1 +num2;
+}
+console.log(add(12,12));
+```
