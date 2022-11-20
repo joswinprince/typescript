@@ -9,6 +9,11 @@ npx --package typescript tsc --init
 npx --package typescript tsc
 ```
 
+## Run the typescript compiled file
+```
+node filename // filename without extension
+```
+
 ## example
 ```
 let lname;
@@ -41,11 +46,16 @@ let sum = numList.reduce((acc,num)=> acc+num);
 console.log(emp);
 console.log(sum);
 ```
-# Add example
+## Add example
 ```
 function add(num1:number,num2:number):number
 {
     return num1 +num2;
 }
 console.log(add(12,12));
+```
+## Add example single line
+```
+const add = (num1:number,num2:number):number => num1+num2;
+console.log(add(92,12));
 ```
